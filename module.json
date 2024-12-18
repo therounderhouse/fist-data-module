@@ -1,0 +1,52 @@
+{
+  "id": "fist-data-module",
+  "title": "FIST Data Module",
+  "description": "A simple module to import compendium packs and roll tables for the FIST system.",
+  "authors": [
+    {
+      "name": "ROUNDERHOUSE",
+      "url": "https://therounderhouse.github.io/",
+      "discord": "rounderhouse.",
+      "email": "rounderhouse.yurt@gmail.com",
+      "flags": {}
+    }
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "packs": [
+    {
+      "name": "fist-datadrop",
+      "label": "FIST DATADROP",
+      "path": "packs/datadrop",
+      "type": "Item",
+      "system": "fist-ultra-edition",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "fist-rolltables",
+      "label": "FIST ROLLTABLES",
+      "path": "packs/fist-rolltables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "fist-ultra-edition"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "fist-ultra-edition",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
