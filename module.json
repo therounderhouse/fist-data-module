@@ -31,7 +31,7 @@
     {
       "name": "fist-rolltables",
       "label": "FIST ROLLTABLES",
-      "path": "packs/fist-rolltables",
+      "path": "packs/rolltables",
       "type": "RollTable",
       "ownership": {
         "PLAYER": "OBSERVER",
